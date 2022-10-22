@@ -78,12 +78,12 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Tests](#tests)
 - [Questions](#questions)
 
-  ---
+ ---
   
-  🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
   
 
-  ## Badges
+## Badges
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
@@ -100,8 +100,8 @@ If you created an application or package and would like other developers to cont
 ## Tests
 
 ## Questions
-Any question contact me:
-Github Username: ${responses.github} </b>
+Any question Contact Me :<br/>
+Github Username: https://github.com/${data.github} ${responses.github} <br/>
 Contact Email: ${responses.email}
 `;
 }

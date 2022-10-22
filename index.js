@@ -1,10 +1,9 @@
 //Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const util = require("util");
-const generateReadme = require("./utils/generateReadme")
+const util = require('util');
 const writeFileAsync = util.promisify(fs.writeFile);
-const generateMarkdown = require('utils/generateMarkdown.js');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 
 // methods  inquirer.prompt(questions, answers)-> promise
@@ -41,7 +40,7 @@ function userPrompt(){
         },
         {
         type: "list",
-        name: "license",
+        name: "Licenses",
         message: "Chose the appropriate license for this project: ",
         choices: [
             "Apache",
@@ -81,7 +80,6 @@ function userPrompt(){
 // function to write README file using util.promisify 
 async function init() {
     try {
-     
         const responses = await userPrompt();
         const generateFile = generateMarkdown(responses);
         // Write new README.md to dist directory

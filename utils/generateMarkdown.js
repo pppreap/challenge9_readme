@@ -13,6 +13,7 @@
 // function to generate markdown for README
 function generateMarkdown(responses) {
   return `# ${responses.Title}
+  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
 
 ## Description
 
@@ -29,7 +30,9 @@ ${responses.Usage}
 ${responses.Contributions}
 
 ## Licenses
-${responses.Licenses}
+![badge](https://img.shields.io/badge/license-${responses.license}-brightgreen)
+<br />
+This application is covered by the ${responses.license} license. 
 
 ## Credits
 ${responses.Credits}

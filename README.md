@@ -48,9 +48,9 @@ THEN I am taken to the **corresponding section** of the README.
 
 ### Assets
 These are images and video of the working generator: run from command prompts, enter responses, read me generated
-![Command Line](./assets/start.png)
+![Command Line](./assets/startnode.png)
 ![Questions](./assets/questions.png)
-![Generated ReadMe](./assets/generate.png)
+![Generated ReadMe](./assets/readmegen.png)
 
 #### Links
 [Github Repository]:(https://github.com/pppreap/challenge9_readme)

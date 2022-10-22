@@ -21,22 +21,22 @@ function userPrompt(){
         {
         type:'input',
         name: 'Description',
-        message:'Provide a description of the project',
+        message:'Provide a description of the project.',
         },
         {
         type:'input',
          name: 'Usage',
-        message:'Provide a use for the project',
+        message:'Provide a use for the project.',
         },
         {
         type:'input',
         name: 'Installation',
-        message:'Provide installation details what is needed',
+        message:'Provide installation details what is needed.',
         },
         {
         type:'input',
         name: 'Contributions',
-        message:'Provide details on collaboration, licenses, or resources used for project, github profiles, links',
+        message:'Provide details on collaboration, licenses, or resources used for project, github profiles, links.',
         },
         {
         type: "list",
@@ -56,7 +56,7 @@ function userPrompt(){
            
          type: 'input',
          name:'Tests',
-         message:" what is the test provided or created?",
+         message:" What is the test provided or created?",
         },
         {
         type: 'input',
@@ -66,12 +66,12 @@ function userPrompt(){
         {
         type:'input',
         name:'github',
-        message:'what is your github username',
+        message:'What is your github username?',
         },
         {
         type:'input',
         name:'email',
-        message:'what is your email',
+        message:'What is your email address?',
             }
        
     ]);

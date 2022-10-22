@@ -2,7 +2,7 @@
  It is important to have a high-quality README for an app to communicate with other devlopers on what the app is for, how to use the app, installations and requirements, report issues and how to contribute.
  Using a command-line application, npm inquirer, and node.js, a read me will be generated dynamically from user's input.
 
- [Link to Walkthrough Video]()
+ [Link to Walkthrough Video](https://youtu.be/SWDCSN3_--8)
 
 [Resource: How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
@@ -54,11 +54,11 @@ These are images and video of the working generator: run from command prompts, e
 
 #### Links
 [Github Repository]:(https://github.com/pppreap/challenge9_readme)
-///
-[Link to Video Walkthrough]
+/// <br>
+[Link to Video Walkthrough](https://youtu.be/SWDCSN3_--8)
 
 #### Credits/Licenses
-Starter Code: Michigan State University Full Stack Development Coding Program. //
-Insomnia for testing  //
+Starter Code: Michigan State University Full Stack Development Coding Program. //<br/>
+Insomnia for testing  //<br/>
 Youtube for Video Hosting
 

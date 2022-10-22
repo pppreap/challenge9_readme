@@ -1,44 +1,30 @@
-// // TODO: Create a function that returns a license badge based on which license is passed in
-// // If there is no license, return an empty string
-// function renderLicenseBadge(license) {}
-
-// // TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {}
-
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {}
-
-// function to generate markdown for README
-function generateMarkdown(responses) {
-  return `# ${responses.Title}
-  ![badge](https://img.shields.io/badge/license-${responses.licenses}-brightgreen)<br />
+# Module_9 : Professional README Generator using Node.js Inquirer Prompt
+  ![badge](https://img.shields.io/badge/license-undefined-brightgreen)<br />
 
 ## Description
 
-${responses.Description}
+ It is important to have a high-quality README for an app to communicate with other devlopers on what the app is for, how to use the app, installations and requirements, report issues and how to contribute.. Using a command-line app, inquirer and node.js, a README will be generated dynamically from user's input.
 
 ## Installation
-${responses.Installation}
+- **npm i** inquirer@8.2.4
 
 ## Usage
-${responses.Usage}
+can quickly create a professional README for a new project
 
 
 ## Contributions/Licenses
-${responses.Contributions}
+- invoke app by **node index.js**
 
 ## Licenses
-![badge](https://img.shields.io/badge/license-${responses.licenses}-brightgreen)
+![badge](https://img.shields.io/badge/license-undefined-brightgreen)
 <br />
-This application is covered by the ${responses.licenses} license. 
+This application is covered by the undefined license. 
 
 ## Credits
-${responses.Credits}
+MSU Coding Boot Camp
 
 ## Tests
-${responses.Tests}
+None
 
 
 ## Table of Contents (Optional)
@@ -77,9 +63,5 @@ If you created an application or package and would like other developers to cont
 
 ## Questions
 Any question contact me:
-Github Username: ${responses.github} </b>
-Contact Email: ${responses.email}
-`;
-}
-
-module.exports = generateMarkdown;
+Github Username: ppreap </b>
+Contact Email: pppreap@gmail.com

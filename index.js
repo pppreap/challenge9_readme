@@ -40,7 +40,7 @@ function userPrompt(){
         },
         {
         type: "list",
-        name: "Licenses",
+        name: "licenses",
         message: "Chose the appropriate license for this project: ",
         choices: [
             "Apache",
@@ -53,7 +53,7 @@ function userPrompt(){
         ]
         },
         {
-            //license or list?
+           
          type: 'input',
          name:'Tests',
          message:" what is the test provided or created?",

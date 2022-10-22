@@ -29,8 +29,10 @@ ${responses.Usage}
 ${responses.Contributions}
 
 ## Licenses
+${responses.Licenses}
 
 ## Credits
+${responses.Credits}
 
 ## Tests
 ${responses.Tests}
@@ -40,11 +42,14 @@ ${responses.Tests}
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-
+- [Contriubutions](#contributions)
+- [Tests](#tests)
+- [Questions](#questions)
 
   ---
   
@@ -68,7 +73,8 @@ If you created an application or package and would like other developers to cont
 ## Tests
 
 ## Questions
-
+Github Username: ${responses.github} </b>
+Contact Email: ${responses.email}
 `;
 }
 

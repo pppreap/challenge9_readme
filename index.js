@@ -60,11 +60,20 @@ function userPrompt(){
          message:" what is the test provided or created?",
         },
         {
+        type: 'input',
+        name:'Credits',
+        message:"Who do you give credits to?",
+        },
+        {
         type:'input',
-        name:'Questions',
-        message:'email address & git hub instructions how to reach me',
-            //adding links?
-        }
+        name:'github',
+        message:'what is your github username',
+        },
+        {
+        type:'input',
+        name:'email',
+        message:'what is your email',
+            }
        
     ]);
 }
@@ -73,8 +82,8 @@ function userPrompt(){
 async function init() {
     try {
      
-        const response = await userPrompt();
-        const generateFile = generateReadme(response);
+        const responses = await userPrompt();
+        const generateFile = generateMarkdown(responses);
         // Write new README.md to dist directory
         await writeFileAsync('./dist/README.md', generateFile);
         console.log('✔️  Successfully wrote to README.md');

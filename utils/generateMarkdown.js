@@ -8,7 +8,6 @@ if (!licenses) {
 }
 }
 
-
 // // TODO: Create a function that returns the license link
 // // If there is no license, return an empty string
 function renderLicenseLink(licenses) {
@@ -101,7 +100,7 @@ If you created an application or package and would like other developers to cont
 
 ## Questions
 Any question Contact Me :<br/>
-Github Username: https://github.com/${data.github} ${responses.github} <br/>
+Github Username: https://github.com/${responses.github} <br/>
 Contact Email: ${responses.email}
 `;
 }

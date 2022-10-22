@@ -1,5 +1,5 @@
 # Module_9 : Professional README Generator using Node.js Inquirer Prompt
- It is important to have a high-quality README for an app to communicate with other devlopers on what the app os for, hwo to use the app, installations and requirements, report issues and how to contribute.
+ It is important to have a high-quality README for an app to communicate with other devlopers on what the app is for, how to use the app, installations and requirements, report issues and how to contribute.
  Using a command-line application, npm inquirer, and node.js, a read me will be generated dynamically from user's input.
 
  [Link to Walkthrough Video]()

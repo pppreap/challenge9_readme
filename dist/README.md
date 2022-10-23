@@ -3,17 +3,17 @@
 
 ## Description
 
- It is important to have a high-quality README for an app to communicate with other devlopers on what the app is for, how to use the app, installations and requirements, report issues and how to contribute. Using a command-line application, npm inquirer, and node.js, a read me will be generated dynamically from user's input.
+It is important to have a high-quality README for an app to communicate with other devlopers on what the app is for, how to use the app, installations and requirements, report issues and how to contribute.    Using a command-line application, npm inquirer, and node.js, a read me will be generated dynamically from user's input.
 
 ## Installation
 npm inquirer@8.2.4, node.js, command-line app
 
 ## Usage
-Quickly create a professional README for a new projec
+Quickly create a professional README for a new project
 
 
-## Contributions/Licenses
-MIT
+## Contributions/Licenses/Links
+https://youtu.be/SWDCSN3_--8
 
 ## Licenses
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
